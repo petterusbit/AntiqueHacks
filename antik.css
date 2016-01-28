@@ -1,0 +1,75 @@
+/* CSS declarations go here */
+
+body{
+        margin-left: -20px;
+    margin-right: -20px;
+}
+
+.menu {
+    height:50px; 
+    background-color:#2e2e2e;
+    padding:0;
+    margin:0 auto;
+
+}
+
+.middle{
+    height: 600px;
+    width: 100%;
+    background-color: #EBEBEB;
+    margin:0 auto;
+
+}
+
+.centercontainer{
+
+    padding-top:50px;
+    width: 375px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.video {
+    width: 350px;
+    height: 100px;
+}
+.top{
+    background-color:grey;
+    margin:0 auto;
+    height: 50px;
+    padding:0;
+}
+
+.photoframe{
+    background-color:ffffff;
+    margin: O auto;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+.capture {
+    margin: auto;
+    border: 1px solid #000000;
+    padding: 10px 25px;
+    background: 0 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+}
+

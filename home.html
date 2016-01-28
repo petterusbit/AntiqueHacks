@@ -1,0 +1,84 @@
+<head>
+  <title>Antikhandlarna.se</title>
+  
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+<body>
+
+</body>
+
+   
+    
+     
+       
+    
+<template name="main">
+ 
+    <div class="container-fluid">
+     <div class="row menu">
+
+     </div>
+     
+     
+     <div class="row middle">
+         
+         <div class="centercontainer"> 
+         
+           
+           {{>yield}}
+           
+           </div>
+           
+      
+     </div>
+     
+ </div>
+
+</template>
+    
+
+    <template name="takePhoto">
+  <p><input type="button" class="capture" value="Ta bild"></p>
+
+</template>
+
+
+  
+   <template name="sendimage">
+    
+
+<h2>Skicka</h2>
+      <p><img class="imageholder" src="{{photo}}"></p>
+      
+     </template>
+
+
+
+<template name="objectName">
+    
+    <p class="txt">Namn på objekt</p>
+    <p><input type="text" class="" value=""></p>
+</template>
+
+
+
+
+<template name="register">
+    <h2>Register</h2>
+</template>
+
+  
+  <template name="login">
+    <h2>Login</h2>
+</template>
+  
+
+
+
+
+
+
+
+
+<!-- <template name "savePhoto"></template> -->
